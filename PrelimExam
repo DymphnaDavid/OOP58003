@@ -1,0 +1,16 @@
+class Student:
+ def __init__(self):
+  self.name="Dymphna Frances David"
+  self.student_no="202110393"
+  self.age="19"
+  self.school="Adamson University"
+  self.course="Computer Engineering"
+ def myself(self):
+  print("My name is ", self.name)
+  print("My student no is ", self.student_no)
+  print("I am ", self.age)
+  print("I am currently studying at ", self.school)
+  print("I am taking ", self.course)
+
+s=Student()
+s.myself()
